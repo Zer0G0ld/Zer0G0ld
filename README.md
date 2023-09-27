@@ -42,7 +42,7 @@
 ![Linux](https://img.shields.io/badge/-Linux-05122A?style=flat&logo=linux)&nbsp;
 ![Windowns](https://img.shields.io/badge/-Windows-05122A?style=flat&logo=windows)&nbsp;
 
-## Sobre mim:
+## About Me:
 <br><br>
 • I'm a back-end developer and I program a lot in Python but I also like other languages ​​of course, after all I don't program for what I like, more for what's needed at the time!
 <br><br>
