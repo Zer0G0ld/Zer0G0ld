@@ -56,6 +56,8 @@ The projects I'm most proud of are:
 - [TZSoundWave](https://github.com/Zer0G0ld/TZSoundwave)
 - [TZPassword](https://github.com/Zer0G0ld/TZPassword)
 - [TZANALYTICS](https://github.com/Zer0G0ld/TZANALYTICS)
+- [decodeX](https://github.com/Zer0G0ld/decodeX)
+- [rede neural](https://github.com/Zer0G0ld/rede_neural)
 
 <br><br>
 <div>
