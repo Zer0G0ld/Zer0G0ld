@@ -10,6 +10,10 @@
 
 -------
 <br><br>
+
+![Snake animation of GitHub contribution stats](https://raw.githubusercontent.com/ThaTiemsz/ThaTiemsz/output/snake.svg)
+
+
 <h1 align="center">Zer0G0ld</h1>
 <p align=center">Creating Paths with lines of code!</p>
 <p align=center">Technology allows me to see every moment!</p>
