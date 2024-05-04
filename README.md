@@ -1,5 +1,11 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=150&section=header)
 <br><br>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=100&color=10762E&center=true&vCenter=true&random=false&width=435&lines=Hello%2C+I'm+Zer0;AND;+I'm+Back-End+Developer)](https://git.io/typing-svg)
+
+#
+
+
 <img src="https://img.shields.io/static/v1?label=Blog&message=Zer0G0ld&color=7159c1&style=for-the-badge&logo=ghost" href="https://www.linkedin.com/in/matheus-torres-b7314b234/"/>
 <br><br>
 
@@ -9,27 +15,31 @@
 </h4>
 
 -------
+
+
+<h3 align="left">about me: </h3>
+
+<div align="left"  >
+	<img height="200" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif"  width="250"  align="right"  alt="meme"/>
+	👩🏻‍💻 Junior Back-end Developer <br> 
+	📚 Cursando Ciência da Computação  <br> 
+	🎲 Amo codar e ouvir música  <br> 
+	<br/>
+	<p align=center">Creating Paths with lines of code!</p>
+	<p align=center">Technology allows me to see every moment!</p>
+	<p aling="center">My portfolio : https://abre.ai/zer0codeopen </p>
+
+</div>
 <br><br>
 
-![Snake animation of GitHub contribution stats](https://raw.githubusercontent.com/ThaTiemsz/ThaTiemsz/output/snake.svg)
+<h3 align="left">talk to me</h3>
 
+[![Instagram](https://img.shields.io/badge/-Instagram-000?style=for-the-badge&logo=instagram&logoColor=9407F7&color:FFF)](https://www.instagram.com/code_open/?igsh=OHVpb3h6Y3B6dWQ0)
+[![Discord](https://img.shields.io/badge/-Discord-000?style=for-the-badge&logo=discord&logoColor=9407F7&color:FFF)](https://discord.com/channels/@me)
+[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=gmail&logoColor=9407F7&color:FFF)](mailto:matheus321trabalho/gmail.com)
+[![Linkedin](https://img.shields.io/badge/-Linkedin-000?style=for-the-badge&logo=linkedin&logoColor=9407F7&color:FFF)](https://www.linkedin.com/mwlite/in/matheus-torres-b7314b234)
 
-<h1 align="center">Zer0G0ld</h1>
-<p align=center">Creating Paths with lines of code!</p>
-<p align=center">Technology allows me to see every moment!</p>
-<p aling="center">My portfolio : https://abre.ai/zer0codeopen </p>
-
-<br><br>
-
-## ⚙️ &nbsp;GitHub Analytics
-
-<p align="left">
-<img width="530em" src="https://github-readme-stats.vercel.app/api?username=Zer0G0ld&show_icons=true&theme=vision-friendly-dark" alt="Zer0G0ld's stats"/>
-<img width="530em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zer0G0ld&layout=compact&theme=vision-friendly-dark" alt="Zer0G0ld's most languages"/>
-</p>
-
-<br></br>
-## 🛠 &nbsp;Tech Stack
+<h3 align="left">my knowledges</h3>
 
 ![Termux](https://img.shields.io/badge/-Termux-05122A?style=flat&logo=termux)&nbsp;
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
@@ -39,40 +49,20 @@
 ![Shell](https://img.shields.io/badge/-Shell-05122A?style=flat&logo=Shell)&nbsp;
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
-
-> **OBS:.** I know and I study them all
-
-<br></br>
-## 🛠 &nbsp;Operational Systems
 ![Linux](https://img.shields.io/badge/-Linux-05122A?style=flat&logo=linux)&nbsp;
 ![Windowns](https://img.shields.io/badge/-Windows-05122A?style=flat&logo=windows)&nbsp;
+> **OBS:.** I know and I study them all
 
-## About Me:
-<br><br>
-• I'm a back-end developer and I program a lot in Python but I also like other languages ​​of course, after all I don't program for what I like, more for what's needed at the time!
-<br><br>
-• I developed several personal projects for fun, but I haven't had the opportunity to work in the area yet. So keep my best projects.
-<br><br>
-## Projects:
-The projects I'm most proud of are:
-- [Shell Zero](https://github.com/Zer0G0ld/ShellZero)
-- [TZBasicTools](https://github.com/Zer0G0ld/TZBasicTools)
-- [TZSoundWave](https://github.com/Zer0G0ld/TZSoundwave)
-- [TZPassword](https://github.com/Zer0G0ld/TZPassword)
-- [TZANALYTICS](https://github.com/Zer0G0ld/TZANALYTICS)
-- [decodeX](https://github.com/Zer0G0ld/decodeX)
-- [rede neural](https://github.com/Zer0G0ld/rede_neural)
+#
 
-<br><br>
-<div>
-<br><br>
-  <a href="https://www.instagram.com/CodeOpen/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-   <a href="https://discord.com/channels/@me" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
-   <a href = "mailto: matheus321trabalho/gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/mwlite/in/matheus-torres-b7314b234" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-<br><br>
-</div>
-<br><br>
+<h3 align="left">⚙️ &nbsp; My Stats</h3>
+	
+![Zer0's Stats](https://github-readme-stats.vercel.app/api?username=Zer0G0ld&theme=dark&show_icons=true&hide_border=true&count_private=true&hide_title=true)
+![Zer0's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zer0G0ld&theme=dark&show_icons=true&hide_border=true&layout=compact)
+
+#
+
+![Snake animation of GitHub contribution stats](https://raw.githubusercontent.com/ThaTiemsz/ThaTiemsz/output/snake.svg)
 
 
 ![footer](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=150&section=footer)
