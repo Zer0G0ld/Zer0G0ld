@@ -27,7 +27,7 @@
 	<br/>
 	<p align=center">Creating Paths with lines of code!</p>
 	<p align=center">Technology allows me to see every moment!</p>
-	<p aling="center">My portfolio : https://abre.ai/zer0codeopen </p>
+	<p aling="center">My portfolio : https://bit.ly/CodeOpen </p>
 
 </div>
 <br><br>
