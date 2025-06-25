@@ -7,6 +7,7 @@
 #
 
 [![Blog](https://img.shields.io/static/v1?label=Blog&message=Zer0G0ld&color=7159c1&style=for-the-badge&logo=ghost)](https://abre.ai/zer0codeopen)
+![Visitantes](https://komarev.com/ghpvc/?username=Zer0G0ld&color=green)
 <br><br>
 
 -----
@@ -16,6 +17,7 @@
 </h4>
 
 ---
+
 
 ### 👨‍💻 Sobre Mim
 <div align="left">
@@ -78,15 +80,11 @@
 
 ### 🛠️ Habilidades Técnicas
 
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
-![C](https://img.shields.io/badge/-C-05122A?style=flat&logo=c)&nbsp;
-![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
-![Linux](https://img.shields.io/badge/-Linux-05122A?style=flat&logo=linux)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
-![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5)&nbsp;
-![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)&nbsp;
-![Shell](https://img.shields.io/badge/-Shell-05122A?style=flat&logo=gnu-bash)&nbsp;
-![Windows](https://img.shields.io/badge/-Windows-05122A?style=flat&logo=windows)&nbsp;
+**Back-End:** Python, Go, PHP, C, NestJS  
+**Front-End:** HTML, CSS, JavaScript, TypeScript, React, Next.js, Vue.js  
+**DevOps & Infra:** Linux, Shell Script, Docker, Zabbix, Grafana  
+**Bancos de Dados:** PostgreSQL, MySQL, SQLite  
+**Ferramentas:** Git, GitHub, VSCode, Windows, Figma
 
 > **Nota**: Estou sempre estudando e aprimorando minhas habilidades.
 
