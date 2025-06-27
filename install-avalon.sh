@@ -2,7 +2,7 @@
 # Script de instalação automática do Arch Linux - Avalon Edition
 
 set -e
-https://drive.google.com/file/d/1kQmJYzovUgXCL0rtBnqwQSqjTqViUkHQ/view?usp=drive_link
+
 DISK="/dev/sda"
 EFI="${DISK}1"
 ROOT="${DISK}2"
