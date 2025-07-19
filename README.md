@@ -93,16 +93,6 @@ typedef struct {
 ![Snake](https://raw.githubusercontent.com/ThaTiemsz/ThaTiemsz/output/snake.svg)
 </details>
 
-## 📖 Guestbook
-
-[![Deixe uma mensagem 💬](https://img.shields.io/badge/-Deixe%20uma%20mensagem%20aqui-red?style=flat-round)](https://github.com/Zer0G0ld/Zer0G0ld/issues/1#issuecomment-new)
-
-Últimos recados da galera:
-
-<!-- Guestbook -->
-<!-- /Guestbook -->
-
-
 ---
 
 ## 📝 Blog e Conteúdo
