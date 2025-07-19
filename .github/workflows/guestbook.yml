@@ -3,7 +3,7 @@
 on:
   issue_comment:
     types: [created, edited, deleted]
-    
+
 name: Guestbook
 
 jobs:
@@ -15,7 +15,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-
       - name: Update guestbook from comments
         uses: actions/github-script@v6
         with:
@@ -43,7 +42,7 @@ jobs:
               name: context.repo.repo,
               issue_number: context.issue.number
             }
-
+            
             const result = await github.graphql(query, variables)
             const renderComments = (comments) => {
               return comments.reduce((prev, curr) => {
@@ -55,20 +54,9 @@ jobs:
             const fileSystem = require('fs');
             const readme = fileSystem.readFileSync('README.md', 'utf8');
             fileSystem.writeFileSync('README.md', readme.replace(/(?<=<!-- Guestbook -->.*\n)[\S\s]*?(?=<!-- \/Guestbook -->|$(?![\n]))/gm, renderComments(result.repository.issue.comments.nodes)), 'utf8');
-
       - name: Push guestbook update
         run: |
           git config --global user.name 'Github Actions'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md
-      
-          if git diff --cached --quiet; then
-            echo "✅ Nenhuma mudança detectada no README.md"
-          else
-            git commit -m ':sparkles: update guestbook'
-            git push
-          fi
-          exit 0
-
-
-
+          git commit -am ':sparkles: update guestbook'
+          git push
