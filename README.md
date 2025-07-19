@@ -100,7 +100,6 @@ typedef struct {
 Últimos recados da galera:
 
 <!-- Guestbook -->
-<!-- Atualizado automaticamente via GitHub Actions -->
 <!-- /Guestbook -->
 
 
