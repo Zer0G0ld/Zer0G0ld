@@ -9,6 +9,8 @@
 <p align="center">
   <a href="https://github.com/Zer0G0ld"><img alt="GitHub" src="https://img.shields.io/github/followers/Zer0G0ld?label=Seguidores&style=for-the-badge&logo=github" /></a>
   <img src="https://komarev.com/ghpvc/?username=Zer0G0ld&style=for-the-badge&color=green" alt="visitas no perfil"/>
+<a href="https://zerodev-blush.vercel.app/doc/Zer0Curriculo.pdf" target="_blank">
+	<img src="https://img.shields.io/badge/-Download%20My%20Resume%20(pt_BR)-%23333?style=for-the-badge&logo=webb&logoColor=white" target="_blank" alt="Zer0 Resume"></a>
 	  <a href="https://zerodev-blush.vercel.app/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/theuzer0"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
