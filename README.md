@@ -99,7 +99,7 @@ typedef struct {
 
 ## 📝 Blog e Conteúdo
 
-* 🔗 Blog: [Zer0CodeOpen](https://abre.ai/zer0codeopen)
+* 🔗 Blog: [Zer0](https://zerodev-blush.vercel.app/)
 * 💬 Compartilho ideias sobre Linux, dev, automação, Zabbix e mais.
 
 ---
