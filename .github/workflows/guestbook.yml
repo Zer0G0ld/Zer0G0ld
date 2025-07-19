@@ -61,12 +61,14 @@ jobs:
           git config --global user.name 'Github Actions'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md
+      
           if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
+            echo "✅ Nenhuma mudança detectada no README.md"
           else
             git commit -m ':sparkles: update guestbook'
             git push
           fi
+          exit 0
+
 
 
