@@ -1,28 +1,46 @@
-on:
-  workflow_dispatch:
-  issue_comment:
-    types: [created, edited, deleted]
+name: Update Guestbook
 
-name: Guestbook
+on:
+  issues:
+    types: [created, opened, edited, deleted]
+
+permissions:
+  contents: write
+  issues: read
 
 jobs:
-  update_guestbook:
-    name: Update guestbook
-    if: ${{ github.event.issue.title == 'Guestbook 📖' }}
+  update-readme:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-      - name: Update guestbook from comments
+
+      - name: Get issue content
+        id: guestbook
         uses: actions/github-script@v7
         with:
           script: |
-            const guestbook = require('./guestbook.js')
-            guestbook({github, context})
-      - name: Push guestbook update
+            const issue = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number
+            });
+            const content = issue.data.body;
+            const author = issue.data.user.login;
+            const now = new Date().toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo" });
+            const entry = `- 🗣️ @${author}: ${content} _(enviado em ${now})_`;
+
+            core.setOutput("entry", entry);
+
+      - name: Update README.md
         run: |
-          git config --global user.name 'Github Actions'
-          git config --global user.email '1105080+openscript@users.noreply.github.com'
-          git commit -am 'feat: update guestbook'
+          echo "${{ steps.guestbook.outputs.entry }}" >> GUESTBOOK.md
+          cat GUESTBOOK.md > README.md
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md GUESTBOOK.md
+          git diff --cached --quiet || git commit -m ":sparkles: update guestbook"
           git push
