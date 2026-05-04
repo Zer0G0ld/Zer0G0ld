@@ -1,61 +1,64 @@
-name: Generate Tetris SVG
+name: Tetris com Stats Reais
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Roda todo dia
-  workflow_dispatch:  # Permite rodar manualmente
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # CRUCIAL - dá permissão de escrita
+      contents: write
     
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
       
-      - name: Create dist directory
+      - name: Fetch GitHub stats
+        run: |
+          # Pega número de commits (aproximado)
+          COMMITS=$(curl -s "https://api.github.com/users/Zer0G0ld/events" | grep -c "PushEvent")
+          FOLLOWER=$(curl -s "https://api.github.com/users/Zer0G0ld" | jq '.followers')
+          echo "COMMITS=$COMMITS" >> $GITHUB_ENV
+          echo "FOLLOWER=$FOLLOWER" >> $GITHUB_ENV
+      
+      - name: Create dist
         run: mkdir -p dist
       
-      - name: Generate Tetris SVG
+      - name: Generate Dynamic Tetris SVG
         run: |
-          cat > dist/tetris.svg << 'EOF'
+          cat > dist/tetris.svg << EOF
           <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
             <rect width="100%" height="100%" fill="#0a0a0a"/>
+            <rect x="50" y="50" width="200" height="200" fill="none" stroke="#00FF41" stroke-width="2"/>
             
-            <!-- Grid do Tetris -->
-            <g transform="translate(50, 50)">
-              <!-- Peças do Tetris -->
-              <rect x="0" y="0" width="30" height="30" fill="#00FF41" opacity="0.8"/>
-              <rect x="30" y="0" width="30" height="30" fill="#00FF41" opacity="0.8"/>
-              <rect x="60" y="0" width="30" height="30" fill="#00FF41" opacity="0.8"/>
-              <rect x="0" y="30" width="30" height="30" fill="#00FF41" opacity="0.8"/>
-              
-              <!-- Texto -->
-              <text x="200" y="30" fill="#00FF41" font-family="monospace" font-size="20" font-weight="bold">
-                ZER0 TETRIS
-              </text>
-              <text x="200" y="60" fill="#00FF41" font-family="monospace" font-size="14">
-                Score: 1337
-              </text>
-              <text x="200" y="90" fill="#00FF41" font-family="monospace" font-size="14">
-                Lines: 42
-              </text>
-              <text x="200" y="120" fill="#00FF41" font-family="monospace" font-size="14">
-                Level: HACKER
-              </text>
-              <text x="200" y="160" fill="#FFFF00" font-family="monospace" font-size="12">
-                Next: Z-Core Engine
-              </text>
-            </g>
+            <!-- Tetris blocks baseado em commits -->
+            <rect x="50" y="230" width="30" height="30" fill="#00FF41"/>
+            <rect x="80" y="230" width="30" height="30" fill="#00FF41"/>
+            <rect x="110" y="230" width="30" height="30" fill="#00FF41"/>
+            <rect x="50" y="200" width="30" height="30" fill="#00FF41"/>
+            
+            <text x="300" y="80" fill="#00FF41" font-family="monospace" font-size="24" font-weight="bold">
+              ZER0 TETRIS
+            </text>
+            <text x="300" y="120" fill="#00FF41" font-family="monospace" font-size="16">
+              Commits: ${{ env.COMMITS }}
+            </text>
+            <text x="300" y="150" fill="#00FF41" font-family="monospace" font-size="16">
+              Followers: ${{ env.FOLLOWER }}
+            </text>
+            <text x="300" y="180" fill="#00FF41" font-family="monospace" font-size="16">
+              Status: ROOT_ACCESS
+            </text>
+            <text x="300" y="220" fill="#FFFF00" font-family="monospace" font-size="14">
+              Active Stack: 15 repos
+            </text>
           </svg>
           EOF
       
-      - name: Deploy to output branch
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
           publish_dir: ./dist
-          keep_files: false
