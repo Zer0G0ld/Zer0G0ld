@@ -147,6 +147,12 @@ int main(void) {
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Zer0_Tech-ACTIVE-00FF41?style=for-the-badge&logo=matrix&logoColor=white"/>
+  <img src="https://img.shields.io/badge/INFRA-LIVE-00FF41?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ROOT-ACCESS_GRANTED-00FF41?style=for-the-badge"/>
+</p>
+
+<p align="center">
   <code># zer0@zer0tech:~$</code> <b>chmod +x life && ./life --dream</b><br/>
   <code>> Root access granted. Always hacking. Always building. Always learning.</code>
 </p>
@@ -154,3 +160,4 @@ int main(void) {
 <p align="center">
   <img src="https://raw.githubusercontent.com/Zer0G0ld/Zer0G0ld/output/snake.svg" alt="Snake animation" />
 </p>
+
