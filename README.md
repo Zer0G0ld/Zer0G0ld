@@ -120,8 +120,13 @@ int main(void) {
 ## 📈 SYSTEM METRICS // GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Zer0G0ld&show_icons=true&theme=radical&count_private=true&bg_color=0a0a0a&title_color=00FF41&icon_color=00FF41&text_color=cccccc"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zer0G0ld&layout=compact&theme=radical&bg_color=0a0a0a&title_color=00FF41&text_color=cccccc&langs_count=8"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zer0G0ld&theme=radical"/>
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Zer0G0ld&theme=radical&row=2&column=4"/>
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zer0G0ld&theme=radical"/>
 </p>
 
 ---
@@ -141,9 +146,8 @@ int main(void) {
 
 ---
 
-<!-- ASCII HACKER TERMINAL -->
 <p align="center">
-  <img src="https://media.tenor.com/0AV4bC0UDRkAAAAd/coding.gif" width="280px"/>
+  <img src="https://media.giphy.com/media/l0IylOPCNkiqOgMyA/giphy.gif" width="200"/>
 </p>
 
 <p align="center">
