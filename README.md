@@ -15,8 +15,8 @@
 <p align="center">
   <a href="https://github.com/Zer0G0ld"><img src="https://img.shields.io/github/followers/Zer0G0ld?label=FOLLOWERS&style=for-the-badge&logo=github&logoColor=white&color=0a0a0a&labelColor=00FF41"/></a>
   <img src="https://komarev.com/ghpvc/?username=Zer0G0ld&style=for-the-badge&color=00FF41&label=VISITORS&abbreviated=true"/>
-  <a href="https://zerodev-blush.vercel.app/doc/Zer0Curriculo.pdf"><img src="https://img.shields.io/badge/CV_DOWNLOAD-PT_BR-0a0a0a?style=for-the-badge&logo=webb&logoColor=00FF41"/></a>
-  <a href="https://zerodev-blush.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-Zer0_Tech-0a0a0a?style=for-the-badge&logo=vercel&logoColor=00FF41"/></a>
+  <a href="https://zer0tech.vercel.app/doc/ZCurriculo.pdf"><img src="https://img.shields.io/badge/CV_DOWNLOAD-PT_BR-0a0a0a?style=for-the-badge&logo=webb&logoColor=00FF41"/></a>
+  <a href="https://zer0tech.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-Zer0_Tech-0a0a0a?style=for-the-badge&logo=vercel&logoColor=00FF41"/></a>
   <a href="https://www.linkedin.com/in/theuzer0"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
